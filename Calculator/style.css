@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,400');
+body {
+    background: #be8b48;
+    font-family: 'Raleway', sans-serif;
+}
+
+input {
+    display: inline-flex;
+    height: 40px;
+    width: 100px;
+    border: 2px solid #be8b48;
+    margin: 20px 20px 20px 20px;
+    color: #000000;
+    font-size: 1.5em;
+    letter-spacing: 1.5px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    transition: all .5s ease-Out;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input:hover {
+    background: linear-gradient(-45deg, #ffffffb6, #ebb248, #ffffff70);
+    background-size: 400% 400%;
+    animation: gradient 2s ease infinite;
+}
+
+.putNum {
+    position: relative;
+    top: 10px;
+    width: 93%;
+    height: 10vh;
+    font-size: x-large;
+    padding: 0 10px 0 10px;
+    background-color: #e0b86e;
+    color: rgb(10, 10, 10);
+}
+
+form {
+    position: relative;
+    top: 100px;
+    left: 350px;
+    display: inline-block;
+    text-align: center;
+    background: linear-gradient(-45deg, #ffffff, #2a3d5a, #888888, #2e6659d8, #3a3a3ab7, #1b283d);
+    background-size: 400% 400%;
+    animation: gradient 7s ease infinite;
+    border-radius: 10px;
+}
+
+#c {
+    background-color: crimson;
+    color: white;
+}
